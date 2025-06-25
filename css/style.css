@@ -1,0 +1,98 @@
+/* 폰트 및 배경 */
+body {
+    font-family: 'Pretendard', sans-serif;
+    margin: 0;
+    background-color: #111; /* 어두운 배경 */
+    color: #eee; /* 밝은 글씨 */
+    line-height: 1.6;
+  }
+  
+  /* 공통 컨테이너 */
+  .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 헤더 */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  header p {
+    font-size: 1rem;
+    margin-top: 8px;
+    color: #ccc;
+  }
+  
+  /* 섹션 */
+  section {
+    margin-bottom: 40px;
+  }
+  section h2 {
+    color: #ff5e5e;
+    margin-bottom: 10px;
+  }
+  section p {
+    font-size: 1.1rem;
+    color: #ddd;
+  }
+  
+  /* 영상 */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  /* 포스터 이미지 */
+  .poster {
+    width: 85%; /* 크기 줄임 */
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(255,255,255,0.1);
+  }
+  
+  /* 버튼 */
+  .btn {
+    display: inline-block;
+    background-color: #ff5e5e;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  .btn:hover {
+    background-color: #cc0000;
+  }
+  
+  /* 푸터 */
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #999;
+    background-color: #000;
+  }
+  
