@@ -96,3 +96,18 @@ body {
     background-color: #000;
   }
   
+  .video-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .video-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .video-container {
+    flex: 1;
+  }
+}
